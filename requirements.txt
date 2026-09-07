@@ -1,0 +1,6 @@
+pandas>=2.0
+pyyaml>=6.0
+matplotlib>=3.7
+anthropic>=0.40.0
+gspread>=6.0
+google-auth>=2.30
