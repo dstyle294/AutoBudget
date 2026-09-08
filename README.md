@@ -6,9 +6,8 @@ transactions in a local database, synced to your existing Google Sheet.
 ## Setup
 
 ```bash
-python -m venv .venv
+uv sync
 source .venv/bin/activate
-pip install -r requirements.txt
 export BUDGET_SHEET_ID=your_google_sheet_id  # from the sheet's URL
 ```
 
