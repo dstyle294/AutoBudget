@@ -23,4 +23,4 @@ jobs:
         python-version-file: "pyproject.toml"
     
     - name: Install Dependencies
-      uses: uv sync 
+      run: uv sync 
